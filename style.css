@@ -677,6 +677,16 @@ xclip
     PORTFOLIO
 -------------------------------------------------------------------*/
 
+/* Adds space between rows */
+.row > div {
+    margin-bottom: 30px;
+}
+
+/* Optional: Remove extra bottom margin from last row */
+.row:last-child > div {
+    margin-bottom: 0;
+}
+
 .item-h2,
 .item-h1 {
     height: 100% !important;
